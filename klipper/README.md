@@ -6,7 +6,7 @@ G28 -> QGL x2
 
 ### Cold
 
-```
+```txt
 Send: PROBE_ACCURACY
 Recv: // PROBE_ACCURACY at X:147.000 Y:150.000 Z:30.000 (samples=10 retract=3.000 speed=10.0 lift_speed=10.0)
 Recv: // probe at 147.000,150.000 is z=3.857500
@@ -44,7 +44,7 @@ PARK -> M140 S70 -> M104 S220
 
 Soak for 10 minutes
 
-```
+```txt
 Send: PROBE_ACCURACY
 Recv: // PROBE_ACCURACY at X:147.000 Y:150.000 Z:30.000 (samples=10 retract=3.000 speed=10.0 lift_speed=10.0)
 Recv: // probe at 147.000,150.000 is z=3.701250
